@@ -15,5 +15,5 @@ Hlavní menu obsahuje logo CukrArk, vyhledávač produktů (uživatel napíše t
 
 ## Wireframes
 
-(obrazek)
+![wireframe](https://raw.githubusercontent.com/gyarab/2024_wt_prj_klouda/refs/heads/main/cukrark_wireframe.jpg)
 
