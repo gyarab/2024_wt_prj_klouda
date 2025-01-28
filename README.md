@@ -19,3 +19,6 @@ Přihlášení uživatelé mohou na produkty psát recenze.
 
 ![wireframe](https://raw.githubusercontent.com/gyarab/2024_wt_prj_klouda/refs/heads/main/cukrark_wireframe.jpg)
 
+## DB schéma
+
+![DB schéma](https://raw.githubusercontent.com/gyarab/2024_wt_prj_klouda/refs/heads/main/DB_schema.jpg)
