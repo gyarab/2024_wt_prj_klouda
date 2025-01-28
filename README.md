@@ -11,7 +11,9 @@ Každý produkt je na homepage v gridu karet, každá karta obsahuje název, fot
 
 Na homepage je na začátku logo, následuje úvodní text (pro uvítání), dále již zmíněné karty s produkty a na konci je stručné info o firmě.
 
-Hlavní menu obsahuje logo CukrArk, vyhledávač produktů (uživatel napíše text a na stránce se zobrazí jen karty s produkty, které tento text obsahují, např. "croi" -> zůstane jen karta "croissant") a odkaz na stránku "o nás", kde se nachází informační text o cukrárně a seznam důležitých osob (a způsob kontaktování - tel. číslo, email).
+Hlavní menu obsahuje logo CukrArk, vyhledávač produktů (uživatel napíše text a na stránce se zobrazí jen karty s produkty, které tento text obsahují, např. "croi" -> zůstane jen karta "croissant"), produkty jsou také řazeny do kategorií. Hlavni menu obsahuje dále odkaz na stránku "o nás", kde se nachází informační text o cukrárně a seznam důležitých osob (a způsob kontaktování - tel. číslo, email).
+
+Přihlášení uživatelé mohou na produkty psát recenze.
 
 ## Wireframes
 
