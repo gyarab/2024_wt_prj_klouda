@@ -1,5 +1,19 @@
 {% extends 'main/base.html' %}
+{% load static %}
 
 {% block content %}
     <h1>TWO</h1>
+    <div class="col-md-auto">
+        <div class="card" style="width: 20rem; height: 29rem;">
+            <img class="card-img-top" src="{% static 'main/pictures/vetrnik.png'%}" alt="vetrnik" id="obr01">
+            <div class="card-body">
+                <h4 class="card-title">Větrník</h4>
+                <p class="card-text">Větrník je francouzský dezert kulovitého tvaru z odpalovaného těsta typicky plněný sladkou náplní jako je šlehačka, žloutkový krém nebo zmrzlina. Na povrchu může být dezert ozdobený čokoládovou polevou, karamelem nebo moučkovým cukrem.</p>
+                <div class="buy-section">
+                    <h6>Cena: 45 Kč</h6> 
+                    <button type="button" class="btn btn-warning" onclick="akce()">Koupit</button>
+                </div>  
+            </div>
+        </div>
+    </div>
 {% endblock %}
