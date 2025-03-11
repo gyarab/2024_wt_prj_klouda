@@ -1,0 +1,14 @@
+[
+    {
+        "nazev": "Větrník",
+        "popis": "Větrník je francouzský dezert kulovitého tvaru z odpalovaného těsta typicky plněný sladkou náplní jako je šlehačka, žloutkový krém nebo zmrzlina. Na povrchu může být dezert ozdobený čokoládovou polevou, karamelem nebo moučkovým cukrem.",
+        "obrazek": "main/pictures/vetrnik.png",
+        "cena": 45
+    },
+    {
+        "nazev": "nazev",
+        "popis": "popis",
+        "obrazek": "main/pictures/test.png",
+        "cena": 0
+    }
+]

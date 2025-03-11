@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    homepage
-    <a href="/base">base</a>
-</body>
-</html>
+{% extends 'main/base.html' %}
+
+{% block title %}Homepage{% endblock %}
+
+{% load static %}
+
+{% block content %}
+    <img src="{% static 'main/pictures/logo4.png' %}" alt="logo" class="title">
+    <p>Naše cukrárna je opravdu fire </p>
+    <h3> Mnam Mnam</h3>
+    <p>Cukrárna je místo sloužící k maloobchodnímu prodeji a většinou také k přímé konzumaci zákusků, dortů a jiných sladkostí. Cukrárny bývají obvykle vybaveny stoly a židlemi, u kterých je možné si zákusek sníst a vypít si čaj, dát si kávu, čokoládu nebo limonádu.</p>
+    <div class="row row-flex justify-content-md-center">
+        {% include 'main/card.html' %}
+    </div>
+{% endblock %}

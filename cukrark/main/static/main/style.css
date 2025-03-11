@@ -1,0 +1,124 @@
+/*.navbar-brand{
+    background-color: #fff6d4;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #fff6d4;
+    padding-left: 2%;
+}*/
+
+.nav-link{
+    font-size: 150%;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    color: #facf12;
+}
+.navbar-brand{
+    font-size: 200%;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    color: #EAE0B5;
+}
+body{
+    background-color: #EAE0B5;
+    background-image: url("pictures/croissant_bg.png");
+    background-repeat: repeat;
+}
+.title{
+    width: 350px;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-family: "Comfortaa", sans-serif;
+}
+h5{
+    font-family: "Comfortaa", sans-serif;
+}
+h4{
+    font-family: "Comfortaa", sans-serif;
+}
+h3{
+    font-family: "Comfortaa", sans-serif;
+}
+.buy-notice{
+    /*position: fixed;*/
+    margin-top: 30px;
+    background-color: #f1db8a;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: grey;
+    padding:1%;
+    padding-bottom: 5px;
+    width: 18%;
+    transition: box-shadow 0.3s ease;
+}
+.card-img-top{
+    display: block;
+    margin: auto;
+    height: 150px;
+    object-fit:contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-title {
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
+.card-body{
+    font-family: "Comfortaa", sans-serif;
+    color: #111111;
+    font-size: 90%;
+    font-weight: 500;
+    text-align: justify;
+}
+.card {
+    margin-top: 50px;
+    background-color: #fff6d4;
+    position: relative;
+    display: table;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: grey;
+    padding:2%;
+    padding-bottom: 60px;
+    width: 8%;
+    max-width: 300px;
+    transition: box-shadow 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-img-top{
+    width: 70%;
+    max-width: 300px;
+    margin-top: 5%;
+}
+.card:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-3px);
+}
+.buy-section{
+    position: absolute;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1%;
+    left: 10%;
+    right: 8%;
+    bottom: 20px;
+}
+footer{
+    background-color: rgb(207, 152, 56, 0.8);
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
+.footer-text{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0.5%;
+    padding-top: 2%;
+}
