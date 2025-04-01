@@ -1,0 +1,15 @@
+- model: main.category
+  pk: 1
+  fields:
+    name: Bezlepkové
+    description: Bez lepku
+- model: main.category
+  pk: 2
+  fields:
+    name: Vegan
+    description: Bez masa
+- model: main.category
+  pk: 3
+  fields:
+    name: Vegetarián
+    description: Bez masa

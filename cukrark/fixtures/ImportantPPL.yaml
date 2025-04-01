@@ -1,0 +1,14 @@
+- model: main.importantppl
+  pk: 1
+  fields:
+    name: John Pork
+    email: johnpork@cukrark.cz
+    position: CEO
+    tel: +420 987 654 321
+- model: main.importantppl
+  pk: 2
+  fields:
+    name: John Kler
+    email: whysoserious@cukrark.cz
+    position: Founder
+    tel: +420 465 132 879

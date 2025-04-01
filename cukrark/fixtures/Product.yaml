@@ -1,0 +1,17 @@
+- model: main.product
+  pk: 1
+  fields:
+    name: Větrník
+    description: Větrník je francouzský dezert kulovitého tvaru z odpalovaného těsta
+      typicky plněný sladkou náplní jako je šlehačka, žloutkový krém nebo zmrzlina.
+      Na povrchu může být dezert ozdobený čokoládovou polevou, karamelem nebo moučkovým
+      cukrem.
+    price: 45
+- model: main.product
+  pk: 3
+  fields:
+    name: Tiramisu
+    description: Tiramisu se vyrábí ze sýra mascarpone, který se šlehá se žloutky
+      a cukrem, případně šlehačkou. V misce se prokládá speciálními cukrářskými piškoty,
+      namočenými do silného espresa. Povrch dezertu se posype práškovým kakaem.
+    price: 50

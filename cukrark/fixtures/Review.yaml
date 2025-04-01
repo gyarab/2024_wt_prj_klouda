@@ -1,0 +1,14 @@
+- model: main.review
+  pk: 1
+  fields:
+    user: 1
+    product: 1
+    content: Mnamka, musim si jich koupit vic
+    stars: 5
+- model: main.review
+  pk: 2
+  fields:
+    user: 2
+    product: 3
+    content: No jako az na to kolik to stoji tak vyborny
+    stars: 4

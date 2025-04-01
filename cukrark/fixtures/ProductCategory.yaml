@@ -1,0 +1,10 @@
+- model: main.productcategory
+  pk: 1
+  fields:
+    product: 1
+    category: 3
+- model: main.productcategory
+  pk: 2
+  fields:
+    product: 3
+    category: 3

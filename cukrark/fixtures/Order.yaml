@@ -1,0 +1,10 @@
+- model: main.order
+  pk: 1
+  fields:
+    users: 1
+    price: 95
+- model: main.order
+  pk: 2
+  fields:
+    users: 2
+    price: 50
