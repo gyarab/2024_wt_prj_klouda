@@ -40,4 +40,3 @@ class ProductCategoryAdmin(admin.ModelAdmin):
     list_display = ["id", "product", "category"]
 
 admin.site.register(ProductCategory, ProductCategoryAdmin)
-

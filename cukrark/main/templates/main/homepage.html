@@ -10,6 +10,20 @@
     <h3> Mnam Mnam</h3>
     <p>Cukrárna je místo sloužící k maloobchodnímu prodeji a většinou také k přímé konzumaci zákusků, dortů a jiných sladkostí. Cukrárny bývají obvykle vybaveny stoly a židlemi, u kterých je možné si zákusek sníst a vypít si čaj, dát si kávu, čokoládu nebo limonádu.</p>
     <div class="row row-flex justify-content-md-center">
-        {% include 'main/card.html' %}
-    </div>
+        {% for product in products %}
+            <div class="col-md-auto">
+                <div class="card" style="width: 20rem; height: 29rem;">
+                    <img class="card-img-top" src="{% static product.img_url %}" alt="{{product.name}}" id="obr01">
+                    <div class="card-body">
+                        <h4 class="card-title">{{product.name}}</h4>
+                        <p class="card-text">{{product.description}}</p>
+                        <div class="buy-section">
+                            <h6>Cena: {{product.price}} Kč</h6> 
+                            <button type="button" class="btn btn-warning" onclick="akce()">Koupit</button>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+    {% endfor %}
+    </div> 
 {% endblock %}
