@@ -1,17 +1,51 @@
 - model: main.product
   pk: 1
   fields:
-    name: VÄ›trnÃ­k
-    description: VÄ›trnÃ­k je francouzskÃ½ dezert kulovitÃ©ho tvaru z odpalovanÃ©ho tÄ›sta
-      typicky plnÄ›nÃ½ sladkou nÃ¡plnÃ­ jako je Å¡lehaÄka, Å¾loutkovÃ½ krÃ©m nebo zmrzlina.
-      Na povrchu mÅ¯Å¾e bÃ½t dezert ozdobenÃ½ ÄokolÃ¡dovou polevou, karamelem nebo mouÄkovÃ½m
+    name: Vìtrník
+    description: Vìtrník je francouzskı dezert kulovitého tvaru z odpalovaného tìsta
+      typicky plnìnı sladkou náplní jako je šlehaèka, loutkovı krém nebo zmrzlina.
+      Na povrchu mùe bıt dezert ozdobenı èokoládovou polevou, karamelem nebo mouèkovım
       cukrem.
     price: 45
 - model: main.product
   pk: 3
   fields:
     name: Tiramisu
-    description: Tiramisu se vyrÃ¡bÃ­ ze sÃ½ra mascarpone, kterÃ½ se Å¡lehÃ¡ se Å¾loutky
-      a cukrem, pÅ™Ã­padnÄ› Å¡lehaÄkou. V misce se proklÃ¡dÃ¡ speciÃ¡lnÃ­mi cukrÃ¡Å™skÃ½mi piÅ¡koty,
-      namoÄenÃ½mi do silnÃ©ho espresa. Povrch dezertu se posype prÃ¡Å¡kovÃ½m kakaem.
+    description: Tiramisu se vyrábí ze sıra mascarpone, kterı se šlehá se loutky
+      a cukrem, pøípadnì šlehaèkou. V misce se prokládá speciálními cukráøskımi piškoty,
+      namoèenımi do silného espresa. Povrch dezertu se posype práškovım kakaem.
     price: 50
+- model: main.product
+  pk: 4
+  fields:
+    name: Kremrole
+    description: Kremrole je sladkı cukráøskı vırobek, peèivo z listového tìsta. Kremrole
+      má tvar válce, kdy tìsto naøezané na prouky vhodné délky, je stáèeno do šroubovice
+      a namotává se na speciální kuelovité trubièky, na kterıch se následnì peèe.
+    price: 35
+- model: main.product
+  pk: 5
+  fields:
+    name: Skoøicovı šnek
+    description: Skoøicová rolka se skládá z vyváleného plátu kynutého tìsta, na kterı
+      se tenkou vrstvou másla nasype smìs skoøice a cukru (a v nìkterıch pøípadech
+      hnìdı cukr, rozinky nebo jiné pøísady). Tìsto se pak rozválí, nakrájí na jednotlivé
+      porce a peèe.
+    price: 23
+- model: main.product
+  pk: 6
+  fields:
+    name: Croissant
+    description: Croissant je máslové nadıchané peèivo typu viennoiserie a vyrábí
+      se z kynutého vrstveného tìsta. Pláty kynutého tìsta se pøi pøípravì croissantù
+      prokládají vrstvami zmìklého másla, spoleènì se pak vyvalují. Croissanty jsou
+      pojmenovány podle svého tvaru pùlmìsíce.
+    price: 15
+- model: main.product
+  pk: 7
+  fields:
+    name: Placeholder
+    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ea
+      non accusantium, consequatur quo asperiores, amet quia exercitationem numquam
+      tempora cum, nisi animi mollitia ut. Unde magni exercitationem atque consequatur.
+    price: 0

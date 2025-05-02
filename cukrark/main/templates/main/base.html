@@ -14,19 +14,10 @@
 
     <link rel="stylesheet" href="{% static 'main/style.css' %}">
 
-    <script>
-
-        function buy(){
-            let 
-
-        }
-
-    </script>
-
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: rgba(162, 135, 85, 0.8)">
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg" style="background-color: rgba(162, 135, 85, 0.8);">
+    <div class="container-fluid" style="position: sticky">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,12 +33,28 @@
                 <li class="nav-item">
                     <li><a class="nav-link" href="./">Homepage</a></li>
                 </li>
+                <li>
+                    <form class="form-inline" method="GET" actions="/">
+                        <input 
+                        class="form-control mr-sm-2" 
+                        type="search" 
+                        name="search"
+                        value="{{ request.GET.search }}"
+                        placeholder="Search" 
+                        aria-label="Search">
+                        <button 
+                        class="btn btn-outline-success my-2 my-sm-0" 
+                        type="submit">
+                        Search
+                        </button>
+                    </form>
+                </li>
                 <li class="nav-item">
                     <li><a class="nav-link" href="./"><i class="bi bi-cart4"></i></i></a></li>
                 </li>
             </ul>
-            </div>
         </div>
+    </div>
     </nav>
     <div class = "container">
         
@@ -64,4 +71,4 @@
     </footer>
 
 </body>
-    </html>
+</html>
