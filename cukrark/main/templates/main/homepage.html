@@ -12,7 +12,7 @@
     <div class="row row-flex justify-content-md-center">
         {% for product in products %}
             <div class="col-md-auto">
-                <div class="card" style="width: 20rem; height: 29rem;">
+                <div class="card" style="width: 20rem; min-height: 35rem;">
                     <img class="card-img-top" src="{% static product.img_url %}" alt="{{product.name}}" id="obr01">
                     <div class="card-body">
                         <h4 class="card-title">{{product.name}}</h4>
