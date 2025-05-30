@@ -31,3 +31,14 @@ def get_two(request):
     context = {
     }
     return render(request, "main/two.html", context)
+
+def add_like(request, product_id):
+    try:
+    product = Product.objects.get(id=product_id)
+    except Product.DoesNotExist:
+        return HttpResponse(status=404, content='{"status": "error", "message": "Product not found"}', content_type="application/json")
+    if not product.likes:
+        product.likes = 0
+    product.likes += 1
+    product.save()
+    return HttpResponse(status=200, content='{"status": "ok", "likes": "'+str(product.likes)+'"}', content_type="application/json")
